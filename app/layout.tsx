@@ -29,11 +29,16 @@ export const metadata: Metadata = {
       "Premium personal portfolio of Aryan Malyala, IIT Kharagpur undergraduate focused on backend development, AI, and competitive programming.",
     type: "website",
   },
-  themeColor: "#050714",
   robots: {
     index: true,
     follow: true,
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#050714",
 };
 
 export default function RootLayout({

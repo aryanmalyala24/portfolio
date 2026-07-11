@@ -1,14 +1,16 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import {
   ArrowRight,
   Code2,
+  FileText,
   Github,
   Linkedin,
   Mail,
   Monitor,
+  Phone,
   Sparkles,
   Trophy,
   Wand2,
@@ -89,7 +91,7 @@ const projects = [
     description:
       "AI-powered interview preparation platform with personalized assessments, Gemini integration, and intelligent feedback.",
     tech: ["Python", "FastAPI", "Gemini API", "JSON"],
-    github: "#",
+    github: "https://github.com/aryanmalyala24/InterviewForge",
     demo: "#",
   },
   {
@@ -97,7 +99,7 @@ const projects = [
     description:
       "Built a reverse BFS database of 109M cube states and implemented DFS, IDDFS, and IDA* with efficient state encoding.",
     tech: ["C++", "Algorithms", "Graph Search"],
-    github: "#",
+    github: "https://github.com/aryanmalyala24/Rubiks_Cube_solver",
     demo: "#",
   },
   {
@@ -105,7 +107,7 @@ const projects = [
     description:
       "Developed a retrieval engine using TF-IDF, inverted indexes, and cosine similarity for fast coding problem search.",
     tech: ["Python", "TF-IDF", "Information Retrieval"],
-    github: "#",
+    github: "https://github.com/aryanmalyala24/Coding-Question-Search-Engine",
     demo: "#",
   },
   {
@@ -113,7 +115,7 @@ const projects = [
     description:
       "Interactive sorting visualizer with Bubble, Selection, Insertion, Merge, and Quick sort animations and speed controls.",
     tech: ["C++", "SDL"],
-    github: "#",
+    github: "https://github.com/aryanmalyala24/Sorting-Visualizer",
     demo: "#",
   },
 ];
@@ -124,19 +126,19 @@ const achievements = [
   "Peak LeetCode Rating: 1630",
   "AIR 2391 — JEE Advanced 2024",
   "AIR 9025 — JEE Main 2024",
-  "AIR 46 — Indian Statistical Institute Admission Test",
+  "AIR 39 — Indian Statistical Institute Admission Test",
   "Rank 677 — TS EAMCET",
 ];
 
 const experience = [
   {
-    role: "Senior Executive Member",
-    organization: "KodeinKGP",
-    period: "June 2025 – Present",
+    role: "Member",
+    organization: "Prasthanam, IIT Kharagpur",
+    period: "June 2024 – Present",
     bullets: [
       "Interviewed 30+ candidates during recruitment.",
-      "Contributed to recruiting over 600 students.",
-      "Organized technical workshops and events.",
+      "Contributed to recruiting over 200 students.",
+      "Organized cultural workshops and events.",
       "Mentored junior members.",
     ],
   },
@@ -312,32 +314,44 @@ export default function HomeClient() {
               {[
                 {
                   label: "Email",
-                  value: "aryan@example.com",
-                  href: "mailto:aryan@example.com",
+                  value: "aryanmalyala.24@kgpian.iitkgp.ac.in",
+                  href: "mailto:aryanmalyala.24@kgpian.iitkgp.ac.in",
                   icon: Mail,
                 },
                 {
+                  label: "Phone",
+                  value: "+91 8309823787",
+                  href: "tel:+918309823787",
+                  icon: Phone,
+                },
+                {
+                  label: "Resume",
+                  value: "Download Resume",
+                  href: "/resume.pdf",
+                  icon: FileText,
+                },
+                {
                   label: "GitHub",
-                  value: "github.com/aryan",
-                  href: "https://github.com/aryan",
+                  value: "github.com/aryanmalyala24",
+                  href: "https://github.com/aryanmalyala24",
                   icon: Github,
                 },
                 {
                   label: "LinkedIn",
                   value: "linkedin.com/in/aryan",
-                  href: "https://linkedin.com/in/aryan",
+                  href: "https://www.linkedin.com/in/aryan-malyala-a81a14314/",
                   icon: Linkedin,
                 },
                 {
                   label: "Codeforces",
                   value: "codeforces.com/profile/aryan",
-                  href: "https://codeforces.com/profile/aryan",
+                  href: "https://codeforces.com/profile/aryan_malyala",
                   icon: Monitor,
                 },
                 {
                   label: "LeetCode",
                   value: "leetcode.com/aryan",
-                  href: "https://leetcode.com/aryan",
+                  href: "https://leetcode.com/u/aryanmalyala/",
                   icon: Wand2,
                 },
               ].map((item) => (
