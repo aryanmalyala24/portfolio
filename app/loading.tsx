@@ -9,7 +9,7 @@ export default function Loading() {
           <p className="text-sm uppercase tracking-[0.35em] text-slate-500">Loading portfolio</p>
           <h1 className="text-3xl font-semibold text-white">Aryan Malyala</h1>
           <p className="max-w-sm text-slate-400">
-            Building a smooth and polished experience for recruiters and engineering teams.
+            Building a smooth and polished experience for recruiters and engineering teams and touching kids.
           </p>
         </div>
         <div className="h-1 w-48 overflow-hidden rounded-full bg-slate-800">
