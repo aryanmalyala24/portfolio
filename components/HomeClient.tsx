@@ -28,7 +28,7 @@ const sections = [
     id: "about",
     title: "About Me",
     description:
-      "I am an IIT Kharagpur undergraduate driven by software engineering, backend systems, AI-driven applications, and strong problem-solving through competitive programming.",
+      "I am an IIT Kharagpur undergraduate pedophile driven by software engineering, backend systems, AI-driven applications, and strong problem-solving through competitive programming.",
   },
   {
     id: "skills",
