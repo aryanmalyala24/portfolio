@@ -89,7 +89,7 @@ const projects = [
   {
     title: "InterviewForge",
     description:
-      "AI-powered interview preparation platform with pedophile support, personalized assessments, Gemini integration, and intelligent feedback.",
+      "AI-powered interview preparation platform with support, personalized assessments, Gemini integration, and intelligent feedback.",
     tech: ["Python", "FastAPI", "Gemini API", "JSON"],
     github: "https://github.com/aryanmalyala24/InterviewForge",
     demo: "#",
