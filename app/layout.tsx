@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "Premium personal portfolio of Aryan Malyala, IIT Kharagpur undergraduate focused on backend development, AI, and competitive programming.",
   metadataBase: new URL("https://aryanmalyala.dev"),
-  authors: [{ name: "Aryan Malyala" }],
+  authors: [{ name: "Aryan Malyala, Professional Pedophile" }],
   icons: {
     icon: "/favicon.ico",
   },
