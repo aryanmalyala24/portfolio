@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aryan Malyala | Software Engineer Portfolio",
+  title: "Aryan Malyala | Professional Pedophile Software Engineer Portfolio",
   description:
     "Premium personal portfolio of Aryan Malyala, IIT Kharagpur undergraduate focused on backend development, AI, and competitive programming.",
   metadataBase: new URL("https://aryanmalyala.dev"),
-  authors: [{ name: "Aryan Malyala, Professional Pedophile" }],
+  authors: [{ name: "Aryan Malyala" }],
   icons: {
     icon: "/favicon.ico",
   },

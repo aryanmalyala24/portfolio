@@ -28,7 +28,7 @@ const sections = [
     id: "about",
     title: "About Me",
     description:
-      "I am an IIT Kharagpur undergraduate kid pedophile driven by software engineering, backend systems, AI-driven applications, and strong problem-solving through competitive programming.",
+      "I am an IIT Kharagpur undergraduate driven by software engineering, backend systems, AI-driven applications, and strong problem-solving through competitive programming.",
   },
   {
     id: "skills",
@@ -133,7 +133,7 @@ const achievements = [
 const experience = [
   {
     role: "Member",
-    organization: "Prasthana, IIT Kharagpur",
+    organization: "Prasthanam, IIT Kharagpur",
     period: "June 2024 – Present",
     bullets: [
       "Interviewed 30+ candidates during recruitment.",
