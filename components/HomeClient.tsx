@@ -133,7 +133,7 @@ const achievements = [
 const experience = [
   {
     role: "Member",
-    organization: "Prasthanam, IIT Kharagpur",
+    organization: "Prasthana, IIT Kharagpur",
     period: "June 2024 – Present",
     bullets: [
       "Interviewed 30+ candidates during recruitment.",
